@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  header {
+    background-color: rgb(163, 218, 231);
+    color: rgb(26, 26, 25);
+    padding: 20px;
+    text-align: center;
+    font-weight : bold;
+    font-style: oblique;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    color:rgb(225, 151, 15);
+    
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+    color:rgb(220, 197, 156)
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(250, 158, 38);
+  }
+
+  
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
+  .featured-products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .featured-products article {
+    text-align: center;
+  }
+  .nova {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   }
+   
+   .ph{
+    width: 35%;
+    height: 35%;
+    animation:slideIn 5s forwards;
+   }
+   
+   .ph {
+    animation-delay: 0.5s;
+   }
+   .ph1 {
+    width: 27.4%;
+    height: 35%;
+    animation:slideIn 5s forwards;
+   }
+   .ph1 {
+    animation-delay: 0.5s;
+   }
+   
+   .text {
+    position: relative;
+    color: rgba(168, 130, 130, 0.739);
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size:"35%";
+    width: 30%;
+   }
+   
+   @keyframes slideIn {
+     0% {
+       transform: translateY(-50px);
+       opacity: 0;
+    }
+     100% {
+       transform: translateY(0);
+       opacity: 1;
+    }
+   }
+  footer {
+    text-align: center ;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  
